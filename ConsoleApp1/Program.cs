@@ -305,38 +305,38 @@ namespace ConsoleApp1
             //// CH-5 Questin-12 -------------------------------------------------------------------------
             /// 寫一程式，輸入兩組數字： a1,a2,…,a5和b1,b2,…,b5。令x為a中的最大值，令y為b中的最大值，求x與y中較小者。
             #region
-            int[] arrayA = new int[5];
-            int[] arrayB = new int[5];
-            int max_a = int.MinValue;
-            int max_b = int.MinValue;
+            //int[] arrayA = new int[5];
+            //int[] arrayB = new int[5];
+            //int max_a = int.MinValue;
+            //int max_b = int.MinValue;
 
-            for (int i = 0; i < 5; i++)
-            {
-                Console.Write($"請輸入 A 陣列的第 {i} 個數 : ");
-                arrayA[i] = Convert.ToInt32(Console.ReadLine());
-                if (arrayA[i] > max_a)
-                {
-                    max_a = arrayA[i];
-                }
-            }
-            for (int j = 0; j < 5; j++)
-            {
-                Console.Write($"請輸入 B 陣列的第 {j} 個數 : ");
-                arrayB[j] = Convert.ToInt32(Console.ReadLine());
-                if (arrayB[j] > max_b)
-                {
-                    max_b = arrayB[j];
-                }
-            }
-            if (max_a < max_b)
-            {
-                Console.WriteLine($"A 為:{max_a}");
-            }
-            else
-            {
-                Console.WriteLine($"B 為:{max_b}");
-            }
-            Console.Read();
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write($"請輸入 A 陣列的第 {i} 個數 : ");
+            //    arrayA[i] = Convert.ToInt32(Console.ReadLine());
+            //    if (arrayA[i] > max_a)
+            //    {
+            //        max_a = arrayA[i];
+            //    }
+            //}
+            //for (int j = 0; j < 5; j++)
+            //{
+            //    Console.Write($"請輸入 B 陣列的第 {j} 個數 : ");
+            //    arrayB[j] = Convert.ToInt32(Console.ReadLine());
+            //    if (arrayB[j] > max_b)
+            //    {
+            //        max_b = arrayB[j];
+            //    }
+            //}
+            //if (max_a < max_b)
+            //{
+            //    Console.WriteLine($"A 為:{max_a}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"B 為:{max_b}");
+            //}
+            //Console.Read();
             #endregion
         }
     }
